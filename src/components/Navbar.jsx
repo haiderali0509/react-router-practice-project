@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   const navigate = useNavigate();
   return (
     <div className="navbar">
       <img
-        src="/src/assets/logo.png"
+        src={logo}
         alt=""
         className="logo"
         onClick={() => {
