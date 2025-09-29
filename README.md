@@ -1,16 +1,78 @@
-# React + Vite
+# React Router Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A practice project demonstrating the use of React Router DOM for client-side routing in a React application. This project showcases various routing concepts including nested routes, dynamic routes, and layout components.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Demo](demo.gif)
 
-## React Compiler
+### Live Demo
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[View Live Demo](https://react-router-practice-project-xi.vercel.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Home Page**: Welcome page with navigation
+- **About Page**: Information about the project
+- **Jobs Page**: List of jobs with dynamic routing to job details
+- **Products Page**: Product listing page
+- **Contact Page**: Contact form and information
+- **Error Handling**: Custom 404 page for invalid routes
+- **Responsive Design**: Styled with Tailwind CSS
+- **Nested Routes**: Organized routing structure with layouts
+
+## Technologies Used
+
+- **React 19**: Latest version of React
+- **React Router DOM 7**: For client-side routing
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS 4**: For styling
+- **ESLint**: For code linting
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/haiderali0509/react-router-practice-project.git
+   cd react-router-practice-project
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal).
+
+## Usage
+
+- Navigate through the different pages using the navbar.
+- Explore the jobs section to see dynamic routing in action.
+- Fill out the contact form to test form handling.
+
+
+## Scripts
+
+- `npm run dev`: Start the development server
+- `npm run build`: Build the project for production
+- `npm run preview`: Preview the production build
+- `npm run lint`: Run ESLint for code linting
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License.
