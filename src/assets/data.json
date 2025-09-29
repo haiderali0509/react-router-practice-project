@@ -1,0 +1,74 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "TechNova",
+      "location": "Karachi, Pakistan",
+      "type": "Full-Time",
+      "remote": true,
+      "experience": "2+ years",
+      "salary": "PKR 120,000 - 180,000/month",
+      "postedAt": "2025-09-28",
+      "tags": ["React", "JavaScript", "TailwindCSS", "REST API"],
+      "description": "We are looking for a skilled frontend developer with experience in building modern UIs using React and Tailwind. You will work with backend APIs and be part of an agile team.",
+      "applyLink": "https://technova.jobs/apply/1"
+    },
+    {
+      "id": 2,
+      "title": "MERN Stack Engineer",
+      "company": "CodeX Labs",
+      "location": "Remote",
+      "type": "Contract",
+      "remote": true,
+      "experience": "3+ years",
+      "salary": "PKR 200,000/month",
+      "postedAt": "2025-09-27",
+      "tags": ["MongoDB", "Express", "React", "Node.js", "Docker"],
+      "description": "Join our remote team to build scalable web apps using the MERN stack. Experience with Docker and Git is a plus.",
+      "applyLink": "https://codexlabs.dev/apply/mern"
+    },
+    {
+      "id": 3,
+      "title": "Junior Backend Developer",
+      "company": "InnovaSoft",
+      "location": "Lahore, Pakistan",
+      "type": "Internship",
+      "remote": false,
+      "experience": "Fresh Graduate",
+      "salary": "PKR 30,000/month",
+      "postedAt": "2025-09-25",
+      "tags": ["Node.js", "Express", "MongoDB", "API Development"],
+      "description": "This is a 3-month internship program focused on Node.js and MongoDB. You’ll work with our backend team on real-time APIs and database design.",
+      "applyLink": "https://innovasoft.io/internships/backend"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "company": "PixelForge",
+      "location": "Islamabad, Pakistan",
+      "type": "Part-Time",
+      "remote": true,
+      "experience": "1+ year",
+      "salary": "PKR 70,000/month",
+      "postedAt": "2025-09-20",
+      "tags": ["Figma", "Wireframing", "Prototyping", "Design Systems"],
+      "description": "We're hiring a designer to help us craft intuitive user experiences and beautiful interfaces for our web and mobile platforms.",
+      "applyLink": "https://pixelforge.design/jobs/uiux"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "company": "CloudCore",
+      "location": "Remote",
+      "type": "Full-Time",
+      "remote": true,
+      "experience": "4+ years",
+      "salary": "PKR 250,000 - 300,000/month",
+      "postedAt": "2025-09-15",
+      "tags": ["AWS", "CI/CD", "Docker", "Kubernetes", "Linux"],
+      "description": "Manage cloud infrastructure, automate deployments, and ensure high availability of web applications. Strong Linux and cloud skills required.",
+      "applyLink": "https://cloudcore.io/careers/devops"
+    }
+  ]
+}

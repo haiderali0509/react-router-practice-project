@@ -1,0 +1,139 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.logo {
+  width: 130px;
+  cursor: pointer;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 30px;
+  padding: 10px 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  color: #000;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+button {
+  padding: 10px 20px;
+  background: #000;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.navbar button {
+  font-size: 16px;
+}
+a.active {
+  color: crimson;
+  border-bottom: 1px solid salmon;
+  transition: all 0.25s;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+label {
+  align-self: baseline;
+}
+.contact-buttons {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.contact-info {
+  padding: 36.5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.contact-info-divs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+p,
+h4 {
+  align-self: self-start;
+}
+.not-found {
+  color: crimson;
+}
+.not-found-button {
+  margin-top: 24px;
+}
+.joblayout {
+  padding: 20px 64px;
+}
+.job {
+  padding: 24px;
+}
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  padding: 20px;
+}
+.joblayout {
+  height: 80vh;
+  width: 1100px;
+}
+.job-detail-card {
+  padding: 10px 0;
+}
+.job-detail-card p {
+  max-width: 800px;
+  padding: 5px;
+}
+.btn-secondary {
+  margin-top: 10px;
+}
+.job-title {
+  padding: 5px;
+}
